@@ -1,0 +1,36 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local logs
+logs/
+*.log
+
+# Local generated reports
+# Keep reports only if you intentionally want to publish sample reports.
+# reports/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
